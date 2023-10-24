@@ -1,15 +1,42 @@
 body{background-color: white ; 
-     color: #555555;}
+     color: #555555;
+     font-family: Arial, Helvetica, sans-serif;}
 
 header{background-color: #002171; 
-       color: white;}
+       color: white;
+       background-image: url(sunset.jpg);
+        height: 400%; 
+        text-indent: 1em;
+       background-repeat: no-repeat;
+       background-position: right;
+}
 
-nav{background-color: skyblue;}
+nav{background-color: skyblue;
+    font-weight: bold;}
 
 h2{color: #1976d2;}
 
-dt{color:#002171}
+nav a{text-decoration: none;}
 
-.resort{color: #1976d2;}
+dt{color:#002171;
+    font-weight: bold;}
 
-h1{margin-bottom: 0;}
+.resort{color: #1976d2;
+        font-weight: bold;}
+
+h1{margin-bottom: 0;
+   font-family: Georgia,'times new roman', serif;}
+
+h2{font-family: Georgia,'times new roman', serif;}
+
+h3{font-family: Georgia,'times new roman', serif;
+   color: #000033;}
+
+ul{list-style-image: url(marker.gif);}
+
+footer{font-size: 75%;
+     font-style: italic;
+       font-family:georgia,'times new roman', serif;
+       text-align: center;}
+
+#conact{font-size: 90%;}
